@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(73, 1, 73);
+    }
+
+
+
+    h1 {
+        color: rgb(238, 124, 109);
+    }
+
+
+
+    p {
+         color: white;
+    }
+
+
+    #amarelo{
+        color:yellow;
+    }
+
+    #branco{
+        color: white;
+    }
+
+    .classe1{
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        font-style: italic;
+    }
+
+    h2.center {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        font-style: italic;
+        border-color: white;
+        
+    }

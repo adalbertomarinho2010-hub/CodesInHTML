@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>
+            Team Cynthia
+        </title>
+
+        <link rel="shortcut icon" href="baixados.webp">
+
+        <meta charset="UTF-8">
+
+        <h1>Formulário de Cadastro</h1>
+
+
+    </head>
+
+    <body>
+
+        <form action = "action_page.php">
+                <fieldset>
+                    <legend> Dados Pessoais</legend>
+
+                        <label for ="name">Nome:</label><br>
+                        <input type="text" id="name" name="name" maxlength="10" size="10" required><br>
+
+                        <br><label for ="cpf">CPF:</label><br>
+                        <input type="text" id="cpf" name="cpf" maxlength="14" size="14">
+
+                        <P>Data de Nascimento:<br><input type="date" id="campos" name="Date" maxlength="10" size="20" placeholder ="00-00-0000" required></P>
+                        
+                        <p>Sexo:</p>
+                        <input type="radio" id="masc" name="gender" value=" Masculino" required> 
+                        <label for="masc">Masculino</label>
+
+                        <input type="radio" id="fem" name="gender" value=" Feminino" required> 
+                        <label for="fem">Feminino</label><br>
+
+                        <br><label for="civil">Estado Civil:</label><br>
+                        <select id="civil" name="civil">
+                            <option value="casado">Casado</option>
+                            <option value="solteiro">Solteiro</option>
+                        </select><br>
+                        
+        
+                </fieldset><br>
+                
+                <fieldset>
+                    <legend> Endereço</legend>
+                    <label for ="rua">Rua:</label><br>
+                    <input type="text" id="rua" name="rua" maxlength="10" size="10" required><br>
+
+                    <br><label for ="numero">Número:</label><br>
+                    <input type="text" id="nimero" name="numero" maxlength="4" size="4" required><br>
+
+                    <br><label for ="bairro">Bairro:</label><br>
+                    <input type="text" id="bairro" name="bairro" maxlength="30" size="30" required><br>
+                    
+                    <br><label for ="cidade">Cidade:</label><br>
+                    <input type="text" id="cidade" name="cidade" maxlength="30" size="30" required><br>
+
+                    <br><label for="estado">Estado:</label><br>
+                        <select id="estado" name="estado">
+                            <option value="ac">Acre</option>
+                            <option value="al">Alagoas</option>
+                            <option value="ap">Amapá</option>
+                            <option value="am">Amazonas</option>
+                            <option value="ba">Bahia</option>
+                            <option value="ce">Ceará</option>
+                            <option value="df">Distrito Federal</option>
+                            <option value="es">Espirito Santo</option>
+                            <option value="go">Goiás</option>
+                            <option value="ma">Maranhão</option>
+                            <option value="mt">Mato Grosso</option>
+                            <option value="ms">Mato Grosso do Sul</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="pa">Pará</option>
+                            <option value="pb">Paraíba</option>
+                            <option value="pr">Paraná</option>
+                            <option value="pe">Pernambuco</option>
+                            <option value="pi">Piauí</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="rn">Rio Grande do Norte</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                            <option value="ro">Rondônia</option>
+                            <option value="rr">Roraima</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="sp">São Paulo</option>
+                            <option value="se">Sergipe</option>
+                            <option value="to">Tocantins</option>
+                        </select><br>
+
+                </fieldset><br>
+                
+                <fieldset>
+                    <legend> Dados Financeiros:</legend>
+                    <label for="renda">Renda Mensal:</label><br>
+                    <input type="number" id="renda" name="renda" min="0" placeholder="Ex: 2500.00 R$" required><br>
+
+                    <br><label for="banco">Banco:</label><br>
+                    <input type="texto" id="banco" name="banco" required><br>
+
+                    <br><label for="agencia">Agência:</label><br>
+                    <input type="number" id="agencia" name="agencia" required><br>
+
+                    <br><label for="conta">Conta:</label><br>
+                    <input type="number" id="conta" name="conta" required><br>
+
+                    <br><P>Possui Cartão?</P>
+                    <input type="checkbox" id="cartao" name="tem_cartao" value=" Sim" required> 
+                    <label for="cartao">Sim</label><br>
+
+                </fieldset><br>
+
+                <fieldset>
+                    <legend> Dados Comerciais:</legend>
+                    <label for="empresa">Empresa:</label><br>
+                    <input type="text" id="empresa" name="empresa" required><br>
+
+                    <br><label for="cargo">Cargo:</label><br>
+                    <input type="text" id="cargo" name="cargo"><br>
+
+                    <br><label for="salario">Salário:</label><br>
+                    <input type="number" id="salario" name="salario" min="0" placeholder="Ex: 2500.00 R$" required><br>
+
+                    <br><label for="tempo">Tempo de Empresa:</label><br>
+                    <input type="text" id="tempo" name="tempo" placeholder="Ex: 5 anos, 3 meses e 18 dias" required><br>
+
+                    <br><label for="contrato">Tipo de Contrato:</label><br>
+                        <select id="contrato" name="contrato">
+                            <option value="clt">CLT</option>
+                            <option value="pj">PJ</option>
+                        </select><br>
+
+                </fieldset><br>
+
+                <fieldset>
+                    <legend> Cadastro de Veículo:</legend>
+                    <label for="marca">Marca:</label><br>
+                    <input type="text" id="marca" name="marca" required><br>
+
+                    <br><label for="modelo">Modelo:</label><br>
+                    <input type="text" id="modelo" name="modelo" required><br>
+
+                    <br><label for="ano">Ano:</label><br>
+                    <input type="text" id="ano" name="ano" required><br>
+
+                    <br><label for="placa">Placa:</label><br>
+                    <input type="text" id="placa" name="placa" required><br>
+
+                    <br><label for="combustivel">Combustível:</label><br>
+                        <select id="combustivel" name="combustivel">
+                            <option value="diesel">Díesel</option>
+                            <option value="gasolina">Gasolina</option>
+                            <option value="alcool">Álcool</option>
+                        </select><br>
+
+                </fieldset><br>
+
+                <fieldset>
+                    <legend> Cadastro Imóvel</legend>
+
+                        <br><label for="tipo">Tipo:</label><br>
+                        <select id="tipo" name="tipo">
+                            <option value="apartamento">Apartamento</option>
+                            <option value="casa">Casa</option>
+                            <option value="edificio">Edifício</option>
+                        </select><br>
+
+                        <br><label for ="endereco">Endereço:</label><br>
+                        <input type="text" id="endereco" name="endereco" required>
+
+                        <br><label for="area">Área(m2):</label><br>
+                        <input type="number" id="area" name="area" required><br>
+
+                        <br><label for="valor">Valor:</label><br>
+                        <input type="number" id="valor" name="valor" required><br>
+                        
+                        <p>Financiado:</p>
+                        <input type="radio" id="sim" name="e_financiado" value=" Sim"> 
+                        <label for="sim">Sim</label>
+                        
+                        <input type="radio" id="nao" name="e_financiado" value=" Nao" required> 
+                        <label for="nao">Não</label><br>
+        
+                </fieldset><br>
+
+                <fieldset>
+                    <legend> Dados do Conjugê</legend>
+
+                        <label for ="name">Nome:</label><br>
+                        <input type="text" id="name" name="name" maxlength="10" size="10" required><br>
+
+                        <br><label for ="cpf">CPF:</label><br>
+                        <input type="text" id="cpf" name="cpf" maxlength="14" size="14" required><br>
+
+                        <br><label for="idade">Idade:</label><br>
+                        <input type="number" id="idade" name="idade" min="0" max="120" required><br>
+
+                        <br><label for ="prosissao">Profissão:</label><br>
+                        <input type="text" id="profissao" name="profissao" maxlength="14" size="14" required>
+                        
+                        <p>Trabalha?</p>
+
+                        <input type="radio" id="sim" name="trabalha" value=" Sim" required> 
+                        <label for="sim">Sim</label>
+                        
+                        <input type="radio" id="nao" name="trabalha" value=" Nao" required> 
+                        <label for="nao">Não</label><br>
+        
+                </fieldset><br>
+
+                <fieldset>
+                    <legend> Dados dos Filhos:</legend>
+
+                        <br><label for="qaunt">Quantidade:</label><br>
+                        <input type="number" id="quant" name="quant" required><br>
+
+                        <br><label for ="name_filho">Nome do Filho:</label><br>
+                        <input type="text" id="name_filho" name="name_filho" maxlength="10" size="10" required><br>
+
+                        <br><label for="idade">Idade:</label><br>
+                        <input type="number" id="idade" name="idade" min="0" max="120" required><br>
+                        
+                        <p>Estuda?</p>
+
+                        <input type="checkbox" id="estuda" name="estuda" value=" Sim" required> 
+                        <label for="estuda">Sim</label><br>
+
+                        <br><label for ="escola">Escola:</label><br>
+                        <input type="text" id="escola" name="escola" required>
+                        
+
+                </fieldset><br>
+
+                <fieldset>
+                    <legend> Formação Escolar:</legend>
+
+                        <br><label for="escolaridade">Escolaridade:</label><br>
+                        <select id="escolaridade" name="escolaridade">
+                            <option value="fundamental">Ensino Fundamental</option>
+                            <option value="medio">Ensino Médio</option>
+                            <option value="superior">Ensino Superior</option>
+                        </select><br>
+
+                        <br><label for ="instituicao">Instituição:</label><br>
+                        <input type="text" id="instituicao" name="instituicao" required><br>
+
+                        <br><label for ="curso">Curso:</label><br>
+                        <input type="text" id="curso" name="curso" required><br>
+
+                        <br><label for="ano_conclusao">Ano de Conclusão:</label><br>
+                        <input type="number" id="ano_conclusao" name="ano_conclusao" required><br>
+                        
+                        <br><label for="mensagem">Observações:</label><br>
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="5"
+                            cols="40"
+                            placeholder="Digite sua mensagem aqui...">
+                        </textarea>
+                </fieldset><br>
+
+                <input type = "submit" value="Enviar">
+                <button type = "reset"> Limpar Formulário</button>
+        </form>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <title>
+        Team Cynthia
+        </title>
+
+        <link rel="shortcut icon" href="baixados.webp">
+
+        <meta charset="UTF-8">
+
+        <h1>Cabeçalho Principal</h1>
+
+        
+    </head>
+    
+    <body>
+        <p>Este é um parágrafo simples.</p><br>
+        <b>Negrito</b><i>,Itálico</i><u>,Sublinhado</u><br>
+        <br><mark>Esse é um texto</mark><br>
+        
+        <br><img src="senac.png" alt=" Imagem.SENAC" width="180" height="100">
+
+        <ul type = "disc"> <!-- ps tipos de ul (listas não ordenadas, unordened lists) são "disc, circle, square"-->
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        
+        <ol type = "1">
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>item C</li>
+        </ol>
+        
+        <table border = "1">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+
+            <tr>
+                <td>Jõao</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+            </tr>
+
+            <form action = "action_page.php"> <!--O input type = "text" serve para definir um campo de entrada de texto-->
+                <fieldset><!--Serve para agrupar tudo em um campo-->
+                    <legend> Dados Pessoais</legend>
+
+                        <label for ="fname">Primeiro Nome:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Adalberto"  maxlength="10" size="10" required value = "Adalberto">
+
+                        <br><label for ="lname">Ultimo Nome:</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Marinho"  maxlength="10" size="10" required value = "Marinho"><br>
+
+                        <!-- <input type="text" id="fname" name="fname"><br> -->
+
+                        <!-- <input type="text" id="fname" name="fname" maxlength="5" size="5">Serve para criar um campo e colocar os limites de caracteres permitidos -->
+
+                        <!-- <input type="text" id="lname" name="lname"><br> -->
+
+                        <!-- <input type="text" id="lname" name="lname" maxlength="5" size="5">Serve para criar um campo e colocar os limites de caracteres permitidos -->
+
+                        <!-- <input type = "checkbox"><br>Serve para criar uma caixinha para selecionar, marcar uma quadradinho -->
+
+                        <!-- <input type = "submit" Serve para criar uma caixinha para enviar as informações-->
+
+                        <!-- <input type = "button"><br>Serve para criar um botão clickavel -->
+
+                        <!-- placeholder serve para colocar um nome mais trasparente de exemplo -->
+
+                        <!--Value é oq vai preencher automaticamente caso o usuário não digite nada-->
+                        
+                        <input type = "submit" value="Enviar"><br>
+                        <input type = "button" value="Cadastrar">
+                        <input type = "button" value="Limpar formulário">
+
+                        
+                        
+                    </fieldset>
+                    
+                </form>
+                
+
+                <form>
+                    <fieldset id="Radio">
+                        <legend>Radio</legend>
+                            <br><P>Qual a sua linguagem favorita?</P>
+                                <form action = "action_page.php">
+                                <input type="radio" id="html" name="fav_language" value=" HTML"> 
+                                <label for="html">HTML</label><br>
+
+                                <input type="radio" id="css" name="fav_language" value=" CSS"> 
+                                <label for="css">CSS</label><br>
+                                
+                                <input type="radio" id="javascript" name="fav_language" value=" JavaScript"> 
+                                <label for="javascript">JavaScript</label><br>
+
+                                <!--input type="radio" serve para criar bolinhas marcáveis de opções-->
+                                </fieldset>                
+                            
+                </form>
+                
+                
+                <form>     
+                    <fieldset id="Checkbox">
+                        <legend>Checkbox</legend>
+                            <br><P>Qual a sua linguagem favorita?</P>
+                                <form action = "action_page.php">
+                                <input type="checkbox" id="html" name="fav_language" value=" HTML"> 
+                                <label for="html">HTML</label><br>
+
+                                <input type="checkbox" id="css" name="fav_language" value=" CSS"> 
+                                <label for="css">CSS</label><br>
+                                
+                                <input type="checkbox" id="javascript" name="fav_language" value=" JavaScript"> 
+                                <label for="javascript">JavaScript</label><br>
+
+                                <!--Diferente do radio, no checkbox todas as opções que eu selecionar serão envidas -->
+                    </fieldset>
+
+                </form> 
+
+            </form>
+            
+            <form>
+                <fieldset id="Email">
+                    <legend>E-mail</legend>
+                    <P>email<input type="email" id="email" name="email" maxlength="30" size="20" placeholder ="exemplo@exemplo.com"></P>
+                    <input type = "submit" value="Enviar"><br>
+                </fieldset>   
+
+            </form>
+
+            <form>
+                <fieldset id="Senha">
+                    <legend>Senha</legend>
+                    <P>Senha:<input type="password" id="campos" name="Senha" maxlength="10" size="20" placeholder ="abco@123"></P>
+                    <input type = "submit" value="Enviar"><br>
+                </fieldset>
+                
+                <fieldset id="Data">
+                    <legend>Data de Nascimento</legend>
+                    <P>Data de Nasc:<input type="date" id="campos" name="Date" maxlength="10" size="20" placeholder ="00-00-0000"></P>
+                    <input type = "submit" value="Enviar"><br>
+                </fieldset>   
+
+            </form>
+
+        </table>
+
+    </body>
+
+</html>
