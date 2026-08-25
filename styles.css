@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: rgb(73, 1, 73);
     }
 
@@ -38,4 +38,124 @@ body{
         font-style: italic;
         border-color: white;
         
-    }
+    } */
+
+    /* img {
+        opacity: 0.5;
+    } */ /* Serve para controlar a opacidade da imagem, quanto mais próximo de 0 mais transparente é/*/*
+/* .nav1{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border:1;
+    border-color: black;
+    border-style: solid;
+}
+
+h1{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    display: inline-block;
+    border: 1;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}/*O inline não permite aumentar ou diminuir, apenas o block e o inline-block permitem essa manipulação/* */
+.imagem{
+    height: 80%;
+    width: 12%;
+    border: 2;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 5%;
+    box-sizing: content-box;
+    box-shadow: 0px 10px 20px 0px #0a0a0a;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.imagem1{
+    background-color: #2A31F0;
+}
+
+.p1{
+    color: #6FDECF;
+    text-align: justify;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.mona{
+    height: 55%;
+    width: 103%;
+    box-sizing: border-box;
+    border: 0;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-left: -5px;
+    margin-top: -5px;
+
+}
+
+.imagem2{
+    background-color:#ADD8E6;
+    margin: 1%;
+}
+
+.p2{
+    color: #FF0000;
+    text-align: justify;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.imagem3{
+    background-color: #5F9EA0;
+    margin: 1%;
+}
+
+.p3{
+    color: #018052;
+    text-align: justify;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.imagem4{  
+    background-color:#FF7F50;
+    margin: 1%;
+}
+
+.p4{
+    color: #6FDECF;
+    text-align: justify;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.imagem5{  
+    background-color: #7A181A;
+    margin: 1%;
+}
+
+.p5{
+    color: #7E6F7C;
+    text-align: justify;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.fundo{
+    background-color: #73CBDB;
+    background: linear-gradient(to top, #D1E7EB, #27B5D0);
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    margin-top: 120px;
+    margin-left: 40px;
+}

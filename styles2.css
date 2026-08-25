@@ -1,0 +1,32 @@
+div{
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+.conteiner{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+
+menu{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}/* fica travado na tela mesmo que a pagina seja rolada */
+
+menu{
+    position: sticky;
+    top: 0px;
+ 
+}
+
+menu{
+    position: sticky;
+    z-index: 10;
+ 
+}
