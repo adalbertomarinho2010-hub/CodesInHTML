@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    background-color: #F4F4F4;
+    font-family: Arial, sans-serif;
+}
+
+.topo {
+    width: 100%;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2% 5%;
+}
+
+.logo h1 {
+    font-size: 2rem;
+}
+
+.itens {
+    display: flex;
+    gap: 30px;
+}
+
+.itens a:hover{
+    color: rgba(158, 0, 0, 0.87);
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+.banner-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+
+.banner-conteudo h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner-conteudo p {
+    font-size: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 5%;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+/* .produtos-secao{
+    
+
+} */
+
+.org{
+    width: 100%;
+    height: 5%;
+    display: inline-block;
+    justify-items: center;
+    
+    
+}
+
+.produto-img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.produto-card{
+    background-color: white;
+    width: 50%;
+    height: 70%;
+    border-radius: 5%;
+    margin-bottom: 16%;
+    letter-spacing: 10%;
+   
+}
+.produto-info{
+    background-color: white;
+    height: 36%;
+    border-radius: 5%;
+    margin-bottom: 16%;
+    letter-spacing: 10%;
+    line-height: 25px;
+    margin-left: 5%;
+    color: gray;
+
+}
+.btn-comprar{
+    width: 80%;
+    height: 34%;
+    margin-left: 8%; 
+    margin-bottom: 10%;
+    margin-top: 4%;
+    background-color: black;
+    color: white;
+    border: 0;
+    
+    
+    
+    
+}
+.produtos-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5% 0%; 
+    justify-items: center;
+    gap: 4% 0;
+    
+
+    
+}
+.preco{
+    color: #E67E22;
+    font-weight: bold;
+    font-size:1.5rem;
+    margin-top: 7%;
+    
+    
+}
+.produto-nome{
+    color: black;
+}
+@media ( max-width: 1024px) {
+ .banner {
+        height: 40vh;
+    }
+
+    .banner-conteudo h2 {
+        font-size: 2rem;
+    }
+    .produtos-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 0%; 
+    justify-items: center;
+    column-gap: 0%;
+}
+   footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 5%;
+    gap: 10px;
+    font-size: 0.9rem;
+    
+    
+}
+    .produto-img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+    .produto-card{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 5%;
+    margin-bottom: 16%;
+    letter-spacing: 10%;
+   
+}
+    .produto-info{
+    background-color: white;
+    height: 36%;
+    border-radius: 5%;
+    margin-bottom: 16%;
+    letter-spacing: 30%;
+    line-height: 2rem;
+    margin-left: 5%;
+    font-size: 1.5rem;
+    color: gray;
+
+}
+    .btn-comprar{
+    width: 80%;
+    height: 34%;
+    margin-left: 8%; 
+    margin-bottom: 10%;
+    margin-top: 4%;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 8%;
+    }
+}
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5% 3%;
+        gap: 15px;
+    }
+
+    .itens {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .banner {
+        height: 30vh;
+    }
+
+    .banner-conteudo h2 {
+        font-size: 1.5rem;
+    }
+
+    .banner-conteudo p {
+        font-size: 0.9rem;
+    }
+    footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 5%;
+    gap: 10px;
+    font-size: 0.9rem;
+    
+}
+
+    .produtos-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5% 0%; 
+    justify-items: center;
+    gap: 0 0;
+    
+
+    
+    }
+    
+    .produto-card{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 90%;
+    border-radius: 5%;
+    margin-bottom: 16%;
+    letter-spacing: 10%;
+   
+}
+
+    .btn-comprar{
+    width: 80%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    border: 0;
+    
+    
+   
+
+    }
+
+}
