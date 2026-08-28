@@ -146,6 +146,7 @@ footer {
     padding: 5% 0%; 
     justify-items: center;
     gap: 4% 0;
+    background-color: rgb(243, 241, 241);
     
 
     
@@ -272,9 +273,11 @@ footer {
     .produtos-grid{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* padding: 5% 0%;  */
+    padding: 5% 0%; 
     justify-items: center;
     gap: 0 0;
+    box-sizing: border-box;
+    justify-content: center;
     
 
     
@@ -285,6 +288,7 @@ footer {
     width: 80%;
     height: 90%;
     border-radius: 5%;
+     box-sizing: border-box;
   
 }
 
