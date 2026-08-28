@@ -108,7 +108,7 @@ footer {
 }
 .produto-card{
     background-color: white;
-    width: 50%;
+    width: 90%;
     height: 70%;
     border-radius: 5%;
     margin-bottom: 16%;
@@ -199,7 +199,7 @@ footer {
     .produto-card{
     background-color: white;
     width: 80%;
-    height: 80%;
+    height: 90%;
     border-radius: 5%;
     margin-bottom: 16%;
     letter-spacing: 10%;
@@ -219,7 +219,7 @@ footer {
 }
     .btn-comprar{
     width: 80%;
-    height: 34%;
+    height: 20%;
     margin-left: 8%; 
     margin-bottom: 10%;
     margin-top: 4%;
@@ -272,7 +272,7 @@ footer {
     .produtos-grid{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5% 0%; 
+    /* padding: 5% 0%;  */
     justify-items: center;
     gap: 0 0;
     
@@ -285,14 +285,12 @@ footer {
     width: 80%;
     height: 90%;
     border-radius: 5%;
-    margin-bottom: 16%;
-    letter-spacing: 10%;
-   
+  
 }
 
     .btn-comprar{
     width: 80%;
-    height: 30%;
+    height: 20%;
     background-color: black;
     color: white;
     border: 0;
@@ -301,5 +299,11 @@ footer {
    
 
     }
+    }
+    .preco{
+        color: #E67E22;
+        font-weight: bold;
+        font-size:1.5rem;
+        
 
 }
