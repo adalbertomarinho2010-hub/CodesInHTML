@@ -105,6 +105,8 @@ footer {
     height: 70%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+    object-fit: cover;
+    cursor: pointer;
 }
 .produto-card{
     background-color: white;
@@ -112,19 +114,23 @@ footer {
     height: 80%;
     border-radius: 5%;
     margin-bottom: 16%;
-    letter-spacing: 10%;
+    /* letter-spacing: 10%; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
    
 }
 .produto-info{
-    background-color: white;
-    width: 100%;
-    height: 36%;
+    /* background-color: rgb(15, 15, 15); */
+    /* width: 100%;
+    height: 36%; */
     border-radius: 5%;
     margin-bottom: 16%;
-    letter-spacing: 10%;
-    line-height: 25px;
+    /* letter-spacing: 10%;
+    line-height: 25px; */
     margin-left: 5%;
     color: gray;
+    
 
 }
 .btn-comprar{
@@ -136,6 +142,7 @@ footer {
     background-color: black;
     color: white;
     border: 0;
+    cursor: pointer;
     
     
     
@@ -289,7 +296,9 @@ footer {
     width: 80%;
     height: 90%;
     border-radius: 5%;
-     box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
   
 }
 
@@ -299,6 +308,7 @@ footer {
     background-color: black;
     color: white;
     border: 0;
+    cursor: pointer;
     
     
    
