@@ -147,6 +147,7 @@ footer {
     padding: 5% 0%; 
     justify-items: center;
     gap: 4% 0;
+    background-color: rgb(243, 241, 241);
     
 
     
@@ -200,7 +201,7 @@ footer {
     .produto-card{
     background-color: white;
     width: 80%;
-    height: 80%;
+    height: 90%;
     border-radius: 5%;
     margin-bottom: 16%;
     letter-spacing: 10%;
@@ -220,7 +221,7 @@ footer {
 }
     .btn-comprar{
     width: 80%;
-    height: 34%;
+    height: 20%;
     margin-left: 8%; 
     margin-bottom: 10%;
     margin-top: 4%;
@@ -276,6 +277,8 @@ footer {
     padding: 5% 0%; 
     justify-items: center;
     gap: 0 0;
+    box-sizing: border-box;
+    justify-content: center;
     
 
     
@@ -286,14 +289,13 @@ footer {
     width: 80%;
     height: 90%;
     border-radius: 5%;
-    margin-bottom: 16%;
-    letter-spacing: 10%;
-   
+     box-sizing: border-box;
+  
 }
 
     .btn-comprar{
     width: 80%;
-    height: 30%;
+    height: 20%;
     background-color: black;
     color: white;
     border: 0;
@@ -302,5 +304,11 @@ footer {
    
 
     }
+    }
+    .preco{
+        color: #E67E22;
+        font-weight: bold;
+        font-size:1.5rem;
+        
 
 }
